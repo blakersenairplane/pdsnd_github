@@ -1,6 +1,6 @@
 import time
 import pandas as pd
-import numpy as np
+
 
 CITY_DATA = {'chicago': 'chicago.csv',
              'new york city': 'new_york_city.csv',
@@ -191,9 +191,8 @@ def user_stats(df):
 
     # Display counts of gender
     try:
-        get_gender_count = df['Gender'].value_counts()
         print('Reported genders counts are the following:')
-        print(get_gender_count)
+        print(df['Gender'].value_counts())
         unreported_gender = df['Gender'].isnull().sum()
         print('<<<< ---------- >>>>')
         print('There are {} that are not reported'.format(unreported_gender))
