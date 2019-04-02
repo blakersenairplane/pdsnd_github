@@ -8,8 +8,9 @@ Project: Post your Work to GitHub
 This project is to show what we have learned about git and to show our compentency level
 
 ### Files used
-Include the files used
+bikeshare.py, README.md, chicago.csv, new_york_city.csv, washington.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+Course created by Udacity, project upload, updates and git updates by 
+Blake Jensen
 
