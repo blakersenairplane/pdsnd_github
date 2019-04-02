@@ -2,10 +2,10 @@
 Created on April 2, 2019
 
 ### Project Title
-Replace the Project Title
+Project: Post your Work to GitHub
 
 ### Description
-Describe what your project is about and what it does
+This project is to show what we have learned about git and to show our compentency level
 
 ### Files used
 Include the files used
