@@ -219,7 +219,7 @@ def show_raw_data(df):
     raw_data_view.lower().strip()
     row_count = 0
     range_set = 5
-    if raw_data_view == 'y' or 'yes':
+    if raw_data_view == 'y':
         while True:
             for row in range(range_set):
                 print(df.iloc[row])
@@ -231,6 +231,8 @@ def show_raw_data(df):
                 range_set += 5
             else:
                 break
+    else:
+        return
 
 
 def main():
